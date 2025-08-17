@@ -32,4 +32,19 @@ Test Accuracy: ~86.6%
 
 Precision, Recall, F1: ~0.87 (balanced for both FAKE & REAL classes)
 
+▶️ How to Use
 
+Clone this repository:
+
+git clone https://github.com/your-username/Fake-News-Detection-Using-Deep-Learning.git
+cd Fake-News-Detection-Using-Deep-Learning
+
+
+Open the notebook (Fake_News_Detection.ipynb).
+
+Run the cells to preprocess, train, and test the model.
+
+To load the trained model for predictions:
+
+from tensorflow.keras.models import load_model
+model = load_model("fake_news_model.h5")
