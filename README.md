@@ -33,4 +33,15 @@ This project implements a **Fake News Detection system** using Deep Learning (Bi
 ### Step 1: Clone the repository
 ```bash
 git clone https://github.com/your-username/Fake-News-Detection-Using-Deep-Learning.git
-cd Fake-News-Detection-Using-Deep-Learning```
+cd Fake-News-Detection-Using-Deep-Learning
+
+Step 2: Open the Notebook
+
+Open the Jupyter notebook:
+
+Fake_News_Detection.ipynb
+
+
+Run the cells step by step to preprocess the data, train the model, and evaluate performance.
+
+Make sure your dataset is in the correct folder or update the file paths accordingly.
