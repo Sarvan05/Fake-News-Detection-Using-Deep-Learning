@@ -36,8 +36,8 @@ Precision, Recall, F1: ~0.87 (balanced for both FAKE & REAL classes)
 
 Clone this repository:
 
-git clone https://github.com/your-username/Fake-News-Detection-Using-Deep-Learning.git
-cd Fake-News-Detection-Using-Deep-Learning
+```git clone https://github.com/your-username/Fake-News-Detection-Using-Deep-Learning.git
+cd Fake-News-Detection-Using-Deep-Learning```
 
 
 Open the notebook (Fake_News_Detection.ipynb).
