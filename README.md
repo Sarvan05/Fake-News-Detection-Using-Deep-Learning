@@ -1,55 +1,36 @@
-# Fake-News-Detection-Using-Deep-Learning
-This project implements a Fake News Detection system using Deep Learning (BiLSTM + GloVe embeddings). The model classifies news articles as FAKE or REAL based on their textual content.  It uses the Fake and Real News Dataset and applies text preprocessing, word embeddings, and LSTM-based neural networks to achieve high accuracy.
-.
+# Fake News Detection Using Deep Learning
 
-🚀 Features
+This project implements a **Fake News Detection system** using Deep Learning (BiLSTM + GloVe embeddings). The model classifies news articles as **FAKE** or **REAL** based on their textual content. It uses the Fake and Real News Dataset and applies text preprocessing, word embeddings, and LSTM-based neural networks to achieve high accuracy.
 
-Preprocessing of text data (cleaning, tokenization, padding).
+---
 
-Word embeddings using GloVe (Global Vectors for Word Representation).
+## 🚀 Features
+- Preprocessing of text data (cleaning, tokenization, padding)  
+- Word embeddings using **GloVe** (Global Vectors for Word Representation)  
+- **Bidirectional LSTM** model for sequence learning  
+- Achieves ~87% accuracy on test data  
+- Can predict labels for new/unseen news articles  
 
-Bidirectional LSTM model for sequence learning.
+---
 
-Achieves ~87% accuracy on test data.
+## 🛠️ Tech Stack
+- **Python**  
+- **TensorFlow / Keras**  
+- **NumPy**, **Pandas**  
+- **Matplotlib**, **Seaborn** (for visualization)  
+- **Scikit-learn**  
 
-Can predict labels for new/unseen news articles.
+---
 
-🛠️ Tech Stack
+## 📊 Model Performance
+- **Test Accuracy:** ~86.6%  
+- **Precision, Recall, F1-score:** ~0.87 (balanced for both FAKE & REAL classes)  
 
-Python
+---
 
-TensorFlow / Keras
+## ▶️ How to Use
 
-NumPy, Pandas
-
-Matplotlib, Seaborn (for visualization)
-
-Scikit-learn
-
-📊 Model Performance
-
-Test Accuracy: ~86.6%
-
-Precision, Recall, F1: ~0.87 (balanced for both FAKE & REAL classes)
-
-▶️ How to Use
-
-Clone this repository:
-
-STEP-1
-
-```git clone https://github.com/your-username/Fake-News-Detection-Using-Deep-Learning.git```
-```cd Fake-News-Detection-Using-Deep-Learning```
-
-STEP-2
-
-Open the notebook (Fake_News_Detection.ipynb).
-
-Run the cells to preprocess, train, and test the model.
-
-STEP-3
-
-To load the trained model for predictions:
-
-```from tensorflow.keras.models import load_model```
-```model = load_model("fake_news_model.h5")```
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/your-username/Fake-News-Detection-Using-Deep-Learning.git
+cd Fake-News-Detection-Using-Deep-Learning
