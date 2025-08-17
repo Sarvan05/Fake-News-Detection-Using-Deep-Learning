@@ -13,3 +13,23 @@ Bidirectional LSTM model for sequence learning.
 Achieves ~87% accuracy on test data.
 
 Can predict labels for new/unseen news articles.
+
+🛠️ Tech Stack
+
+Python
+
+TensorFlow / Keras
+
+NumPy, Pandas
+
+Matplotlib, Seaborn (for visualization)
+
+Scikit-learn
+
+📊 Model Performance
+
+Test Accuracy: ~86.6%
+
+Precision, Recall, F1: ~0.87 (balanced for both FAKE & REAL classes)
+
+
