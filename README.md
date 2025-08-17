@@ -36,13 +36,13 @@ git clone https://github.com/your-username/Fake-News-Detection-Using-Deep-Learni
 cd Fake-News-Detection-Using-Deep-Learning
 
 ```
-Step 2: 
+### Step 2: 
 
 Open the notebook (FakeNewsDetection.ipynb) in Jupyter/Colab.
 
 Run the cells to preprocess, train, and test the model.
 
-Step 3:
+### Step 3:
 ```
 from tensorflow.keras.models import load_model
 model = load_model("fake_news_model.h5")
