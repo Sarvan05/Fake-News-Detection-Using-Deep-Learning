@@ -33,4 +33,4 @@ This project implements a **Fake News Detection system** using Deep Learning (Bi
 ### Step 1: Clone the repository
 ```bash
 git clone https://github.com/your-username/Fake-News-Detection-Using-Deep-Learning.git
-cd Fake-News-Detection-Using-Deep-Learning
+cd Fake-News-Detection-Using-Deep-Learning```
